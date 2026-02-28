@@ -1,6 +1,6 @@
 /* basic reset */
 body{
-  margin:0;
+  margin: 0;
   background:#f7f7f2;
   font-family: Arial, sans-serif;
 }
@@ -20,8 +20,7 @@ body{
 .frame{
   padding: 18px;
   width: 100%;  
-  height: 100%; 
-  float: left;
+  height: 1682px;  
   position: relative;
 }
 
@@ -32,9 +31,7 @@ body{
   width: 30%;  
   height: 100px; 
   margin: 10px;
-  float: left;
-  overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 
 
@@ -45,9 +42,46 @@ body{
 .white{ background:#ffffff; }
 
 /* sizes */
-.wide{ width: 1500px; height: 300px; }
-.tall{ width: 800px; height: 655.5px; }
+.wide{ width: 1500px; height: 300px;}
+.tall{ width: 800px; height: 618px; }
 .mid{ width: 500px; height: 300px; }
+
+
+/* position */
+.director{
+  top: 350px;
+  left: 18px;
+}
+
+.learn{
+  top: 350px;
+  left: 864px;
+}
+
+.curriculum{
+  top: 350px;
+  left: 1382px;
+}
+
+.courses{
+  top: 668px;
+  left: 864px;
+}
+
+.apply{
+  top: 668px;
+  left: 1382px;
+}
+
+.rec1{
+  top: 1014px;
+  left: 18px;
+}
+
+.rec2{
+  top: 1312px;
+  left: 18px;
+}
 
 
 .kicker{
@@ -94,8 +128,9 @@ a:hover{
 /* recommendation block */
 .recommend{
   width:2000px;
-  height:30vh;
+  height:250px;
   text-align:center;
+  
 }
 
 .avatar{
@@ -112,4 +147,3 @@ a:hover{
   margin:10px 0 5px 0;
   line-height:1.4;
 }
-
