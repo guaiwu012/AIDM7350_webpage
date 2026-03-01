@@ -19,7 +19,7 @@ body{
 /* Mondrian frame */
 .frame{
   padding: 18px;
-  width: 2100;  
+  width: 2048px;  
   height: 1682px;  
   position: relative;
 }
@@ -147,4 +147,5 @@ a:hover{
   margin:10px 0 5px 0;
   line-height:1.4;
 }
+
 
